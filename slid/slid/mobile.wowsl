@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>2.9</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <Captions>true</Captions>
+            <CaptionsEffect>move</CaptionsEffect>
+            <Controls>true</Controls>
+            <GalleryName>mobile</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>blinds</ImageEffect>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>true</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/mellow/</ImageTemplate>
+            <ImageTemplateName>Mellow</ImageTemplateName>
+            <ImageWidth>480</ImageWidth>
+            <Images>true</Images>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/Somiii/Documents/WOW Slider/Slider.html</PublishFileName>
+            <PublishIndex>Slider.html</PublishIndex>
+            <PublishPath>C:/Users/Somiii/Documents/WOW Slider</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>0</ShowBullets>
+            <ShowTooltips>true</ShowTooltips>
+            <SlideshowDelay>33</SlideshowDelay>
+            <SlideshowDuration>25</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <TemplateName>mellow</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>20</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>20</ThumbWidth>
+            <Thumbnails>true</Thumbnails>
+            <TooltipPos>top</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/Somiii/Downloads/mobil_slid/smartphones.jpg</url>
+                <title>smartphones</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Somiii/Downloads/mobil_slid/Mobile-Apple-iPhone-5s-16GBbb59c3.jpg</url>
+                <title>Apple-iPhone-5s</title>
+                <description>مشخصات کلی:یک سیم کارته - وزن : 112 گرم
+صفحه نمایش: 4.0 اینچ -صفحه نمایش رنگی لمسی 
+دوربین:8.0 مگاپیکسل </description>
+            </Image>
+            <Image>
+                <url>C:/Users/Somiii/Downloads/mobil_slid/Mobile-Samsung-Galaxy-S5-16GB10fdef.jpg</url>
+                <title>Samsung-Galaxy-S5</title>
+                <description>مشخصات کلی:یک سیم کارته - وزن : 130 گرم 
+صفحه نمایش: 4.99 اینچ صفحه نمایش رنگی لمسی 
+دوربین:13.0 مگاپیکسل
+
+</description>
+            </Image>
+            <Image>
+                <url>C:/Users/Somiii/Downloads/mobil_slid/Mobile-Apple-iPhone-5c-16GB76edc1.jpg</url>
+                <title>Apple-iPhone-5c</title>
+                <description>مشخصات کلی:یک سیم کارته - وزن : 132 گرم 
+ صفحه نمایش: 4.0 اینچ -صفحه نمایش رنگی لمسی
+دوربین:8.0 مگاپیکسل</description>
+            </Image>
+            <Image>
+                <url>C:/Users/Somiii/Downloads/mobil_slid/Mobile-Samsung-Galaxy-S4-I9500-16GB949f50.jpg</url>
+                <title>Samsung-Galaxy-S4</title>
+                <description>مشخصات کلی:یک سیم کارته - وزن : 130 گرم 
+صفحه نمایش: 4.99 اینچ صفحه نمایش رنگی لمسی 
+دوربین:13.0 مگاپیکسل
+
+</description>
+            </Image>
+            <Image>
+                <url>C:/Users/Somiii/Downloads/mobil_slid/Mobile-Sony-Xperia-Z-Ultraf13e30.jpg</url>
+                <title>Mobile-Sony-Xperia- ZUltra</title>
+                <description>مشخصات کلی:یک سیم کارته - وزن : 212 گرم 
+صفحه نمایش: 6.4 اینچ صفحه نمایش رنگی لمسی 
+دوربین:8.0 مگاپیکسل
+
+</description>
+            </Image>
+            <Image>
+                <url>C:/Users/Somiii/Downloads/mobil_slid/Mobile-Huawei-Ascend-P6634b72.jpg</url>
+                <title>Huawei-Ascend-P6</title>
+                <description>مشخصات کلی:یک سیم کارته - وزن : 120 گرم
+صفحه نمایش: 4.7 اینچ صفحه نمایش رنگی لمسی 
+دوربین:8.0 مگاپیکسل
+</description>
+            </Image>
+            <Image>
+                <url>C:/Users/Somiii/Downloads/mobil_slid/Mobile-Nokia-Lumia-9306b0c56.jpg</url>
+                <title>Nokia-Lumia 930</title>
+                <description>مشخصات کلی:یک سیم کارته - وزن : 167 گرم
+صفحه نمایش: 5.0 اینچ صفحه نمایش رنگی لمسی 
+دوربین:20 مگاپیکسل</description>
+            </Image>
+            <Image>
+                <url>C:/Users/Somiii/Downloads/mobil_slid/Mobile-Huawei-Ascend-P7c9f99f.jpg</url>
+                <title>Huawei-Ascend-P7</title>
+                <description>مشخصات کلی:یک سیم کارته - وزن : 124 گرم 
+صفحه نمایش:0. 5 اینچ صفحه نمایش رنگی لمسی
+دوربین:13.0 مگاپیکسل</description>
+            </Image>
+            <Image>
+                <url>C:/Users/Somiii/Downloads/mobil_slid/Mobile-LG-G2-16GB2f8da7.jpg</url>
+                <title>Mobile-LG-G2</title>
+                <description>مشخصات کلی:یک سیم کارته - وزن : 143 گرم 
+صفحه نمایش: 5.2 اینچ صفحه نمایش رنگی لمسی 
+دوربین:13.0 مگاپیکسل</description>
+            </Image>
+            <Image>
+                <url>C:/Users/Somiii/Downloads/mobil_slid/Mobile-Samsung-Galaxy-Note-3-N9000-32GB1064d4.jpg</url>
+                <title>Samsung-Galaxy-Note-3</title>
+                <description>مشخصات کلی:یک سیم کارته - وزن : 168 گرم 
+صفحه نمایش: 5.7 اینچ صفحه نمایش رنگی لمسی 
+دوربین:13.0 مگاپیکسل
+
+</description>
+            </Image>
+            <Image>
+                <url>C:/Users/Somiii/Downloads/mobil_slid/Main-Medium (1).jpg</url>
+                <title>HTC Desire 600 Dual Sim</title>
+                <description>مشخصات کلی:یک سیم کارته - وزن : 143 گرم 
+صفحه نمایش: 5.2 اینچ صفحه نمایش رنگی لمسی 
+دوربین:13.0 مگاپیکسل</description>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

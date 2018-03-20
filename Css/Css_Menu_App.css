@@ -1,0 +1,185 @@
+/***********************************Class**************************************/
+.D_Default
+{
+   position: absolute;
+/* border: 1px  cadetblue  dotted;*/
+   display: inline-block;
+   border: hidden;
+}
+.Img_Icon
+{
+      border: hidden;
+}
+.Hidden_Object
+{
+ display:none;    
+}
+.Img_Motion
+{
+    border: 1px solid #08986b; 
+    position: absolute;
+    height:15px;
+    width:15px; 
+    right:0px;
+    display: inline-block;
+}
+/***********************************Id**************************************/ 
+ #D_Menu_App
+ {
+  	position: absolute;
+        border: 1px   activecaption dashed;
+        left:400px;
+  	top:500px;
+	height:150px;
+	width:550px;
+      /*  cursor:url(../Menu/Images/Muse_Icon/Logo_Muse_Gray.png),auto;*/
+      /*  cursor:url(../Menu/Images/Muse_Icon/pine_tree_Gray.png),auto;*/
+ }
+
+ #D_Icon_Arrow_Left
+ {
+     width:34px;
+     height:34px;
+     left: 5px;
+     top: 59px;
+     /*cursor:url(../Menu/Images/Muse_Icon/Logo_Muse_Green.png),auto;*/
+    /* cursor:url(../Menu/Images/Muse_Icon/pine_tree_Green.png),auto;*/
+    cursor:pointer;
+     
+ }
+ #D_1 
+ {
+     width:34px;
+     height:34px;
+     left: 90px;
+     top:59px;
+     opacity:0.2;
+     
+ }
+ #D_2
+ {
+     width:68px;
+     height:68px;
+     left:140px;
+     top:43px;
+     opacity:0.7;
+     
+ }
+ #D_3
+ {
+     width:130px;
+     height:130px;
+     left: 220px;
+     top:11px;
+    /* cursor:url(../Menu/Images/Muse_Icon/Logo_Muse_Green.png),auto;*/
+     /* cursor:url(../Menu/Images/Muse_Icon/pine_tree_Green.png),auto;*/
+     cursor:pointer;
+ }
+ #D_4
+ {
+     width:64px;
+     height:64px;
+     right:130px;
+     top:43px;
+     opacity:0.7;
+ }
+ #D_5
+ {
+     width:34px;
+     height:34px;
+     right:80px; 
+  
+     top:59px;
+     opacity:0.2;
+    /* background-image: url('Images/App_Icon/weather.ico');*/
+ }
+ #D_Icon_Arrow_Right
+ {
+     width:34px;
+     height:34px;
+   
+     right:5px;
+     top:59px;
+     border: hidden;
+    /* cursor:url(../Menu/Images/Muse_Icon/Logo_Muse_Green.png),auto;*/
+      /*cursor:url(../Menu/Images/Muse_Icon/pine_tree_Green.png),auto;*/
+      cursor:pointer;
+ }
+ #Img_Icon_Arrow_Left
+ {
+     width: 32px;
+     height: 32px;
+     
+ }
+/* #Img_Icon_App_Left_32
+ 
+ {
+     width:32px;
+     height:32px;
+     
+ }*/
+ #D_1 img
+ {
+  width:32px;
+  height:32px;   
+ }
+
+ /*#Img_Icon_App_Left_64
+ {
+     width:64px;
+     height:64px;
+     
+ }*/
+ #D_2 img
+ {
+     width:64px;
+     height:64px;
+ }
+ 
+ /*#Img_Icon_App_Main_128
+ {
+     width:128px;
+     height:128px;
+    
+ }*/
+ #D_3 img
+ {
+     width:128px;
+     height:128px;
+    
+ }
+ 
+/*#Img_Icon_App_Right_64
+{
+    width:64px;
+    height:64px;
+    
+}*/
+#D_4 img
+{
+    width:64px;
+    height:64px;
+    
+}
+ /*#Img_Icon_App_Right_32
+ {
+     width:34px;
+     height:34px;
+
+ }*/
+ #D_5 img
+ {
+     width:32px;
+     height:32px;
+ }
+  #Img_Icon_Arrow_Right
+ {
+     width: 32px;
+     height: 32px;
+  /*   rotation: 90deg;*/
+   
+    /*rotation-point:center; */
+         
+ }
+
+

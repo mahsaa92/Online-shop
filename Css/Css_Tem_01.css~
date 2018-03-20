@@ -1,0 +1,256 @@
+/*----------------------------------Tem_01------------------------------------*/
+/***********************************Class**************************************/
+
+.D_Default
+  {
+     position:absolute;
+     border:hidden;
+     overflow:hidden;
+  }
+.D_Contact
+  {
+     position: absolute;
+     left:0px;
+     height: 40px;
+     width: 40px;
+     border: hidden;
+  }
+.Img_Icon_Contact
+  {
+    border:hidden;
+    width:34px;
+    height: 34px;
+  }
+
+.D_Menu_Info_Sub
+  {
+       display:  inline;
+       height:15px;
+       color: #08986b;
+     /*  font-weight:bold;*/
+       font-size: 16px;
+       font-family: BNazanin,sans-serif,Arial, Helvetica; 
+  }
+/***********************************ID****************************************/
+ #sit_Pattern
+  {
+      background-image: url('../Templates/Temp_01/Images/Pattern-Back.jpg') ;
+      background-repeat: repeat-x;
+      background-color: #fafafa;
+      padding: 0px;
+      margin: 0px;
+  }
+  #Sit_Body
+  {
+      position: relative;
+      width: 1364px;
+      height: 701px;
+      top: 0;
+      bottom: 0;  
+      left: 0;
+      right: 0;
+      padding: 0px;
+      margin: 0px;
+      direction: ltr;
+  }
+/*******************************TOP***********************/ 
+  #D_Menu_Top
+   {
+       right: 40px;
+       top: 10px;
+       height:32px;
+       width:32px;
+     }
+/*******************************Middle***********************/
+#D_Logo
+  {
+    left: 450px;
+    top: 90px;
+    width:564px;
+    height:330px;
+    /*background-image: url('../Templates/Temp_01/Images/Logo.png');*/
+    background-repeat: no-repeat;
+  }
+#D_Menu_Info
+  {
+     left: 550px;
+     top: 420px;
+     width: 290px;
+     height:20px;
+     overflow-y:hidden;
+     overflow-x: hidden;
+     white-space:nowrap;
+ }
+ #D_Menu_App
+   {
+  	position: absolute;
+        left:420px;
+  	top:500px;
+	height:150px;
+	width:580px;
+   }
+
+/*******************************LEFT***********************/ 
+#D_Contact
+   {
+     left:29px;
+     top: 240px;
+     height: 202px;
+     width:42px; 
+   } 
+
+#D_FB
+   {
+        top:0px;
+   } 
+#D_TW
+  {     
+     top: 42px;
+  }
+  #D_G
+   {
+      top: 82px; 
+    
+      
+   }
+  #D_In
+  {
+      top: 122px;
+  }
+ #D_Rss
+ {
+     top: 164px;    
+ }
+
+ 
+/**********************/
+ #D_Footer
+     {
+       border: 1px  gainsboro  ridge;
+       position: absolute;
+       height:32px;
+       width:1363px;      
+       left:0px;
+       padding: 0px;
+       bottom: 5px;
+        
+       border-left: hidden;
+       border-right: hidden;
+       border-bottom: hidden;
+     }
+#LanguageName
+{
+	float:right;
+	margin: 6px;
+	color: #464646;
+}
+
+/*---------------------------------MENU APP---------------------------------------*/
+/***********************************Class**************************************/
+.App_Default
+  {
+     position:  absolute;   
+     border: hidden;
+     border-radius: 100%;
+     display: inline-block;
+  }
+.Img_Icon
+  {
+      border: hidden;
+      display:none;    
+  }
+.Arrow_Icon
+  {
+      border: hidden;
+  }
+.Hidden_Object
+ {
+   display:none;   
+ }
+/***********************************Id**************************************/ 
+ 
+ #D_Icon_Arrow_Left
+  {
+     width:34px;
+     height:34px;
+     left: 35px;
+     top: 59px;
+     cursor:pointer;    
+  }
+ #D_1 
+  {
+     width:32px;
+     height:32px;
+     left: 90px;
+     top:59px;   
+  }
+ 
+#D_2
+ {
+     width:64px;
+     height:64px;
+     left:143px;
+     top:43px;
+ }
+ #D_3
+ {
+     width:128px;
+     height:128px;
+     left: 227px;
+     top:11px;
+     cursor:pointer;
+ }
+ #D_4
+ {
+     width:64px;
+     height:64px;
+     left:375px;
+     top:43px;
+ }
+ #D_5
+ {
+     width:32px;
+     height:32px;
+     left:459px; 
+     top:59px;
+ }
+ #D_Icon_Arrow_Right
+ {
+     width:34px;
+     height:34px;
+     right:35px;
+     top:59px;
+     border: hidden;
+     cursor:pointer;
+ }
+ #Img_Icon_Arrow_Left
+ {
+     width: 32px;
+     height: 32px;    
+ }
+#Img_Icon_Arrow_Right
+ {
+     width: 32px;
+     height: 32px;
+ }
+
+/*---------------------------------MENU Footer---------------------------------------*/
+/***********************************ID**************************************/
+
+    #Footer_Link a:hover
+    {
+        text-decoration: none;
+       color: #000;
+    }
+    #Footer_Link a
+    {
+        text-decoration: none;
+        color: #585858;
+        
+    } 
+     #D_Footer_Link
+     {
+         border: 1px #000 solid;
+         position: absolute;
+         left:700px;
+     }

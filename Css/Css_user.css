@@ -1,0 +1,395 @@
+/*----------------------------------Setting---------------------------------------- */
+
+body {
+   background-image: url('../Images/Pattern-Back.jpg')   ;
+     background-repeat:  repeat-y;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.Menu {
+  position: absolute;
+  //width: 100%;
+  top: 10px;
+  left:10px;
+  right: 10px;
+  height: 690px;
+ // border:  aquamarine  solid 1px;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+.Menu .link {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  border:  aqua    dashed  2px;
+  background-clip: content-box;
+  padding: 10px;
+  transition: .5s;
+  color: #D7D0BE;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-shadow:
+    0 -1px 0 rgba(0, 0, 0, 0.2),
+    0 1px 0 rgba(255, 255, 255, 0.2);
+  font-size: 70px;
+}
+
+.Menu .link span {
+  display: block;
+  position: absolute;
+  text-align: right;
+  top: 40%;
+  text-align:  center;
+  left: 20%;
+ 
+  
+  font-size: xx-large;
+  transform: translate(-50%, -50%);
+}
+.Menu .link.Buy span {
+  display: block;
+  position: absolute;
+  text-align: right;
+  top: 40%;
+  text-align:  center;
+  left: 30%;
+ 
+  
+  font-size: xx-large;
+  transform: translate(-50%, -50%);
+}
+
+
+.Menu .link:hover {
+  padding: 25px;
+  color: white;
+  margin-left: -5px;
+  border-radius: 50%;
+  transform: translateX(30px) translatey(20px)
+}
+
+
+.Menu .link.Visit {
+  background-color:  purple ;
+  color: white;
+  top:200px;
+  left: 700px;
+  position: absolute;
+}
+
+.Menu .link.Compare {
+  background-color:  red;
+  color: white;
+  top: 200px;
+  left:  300px;
+  position:  absolute;
+  
+}
+
+
+
+.Menu .link.Buy {
+  background-color: gold;
+  color: white;
+   top: 350px;
+   left:500px;
+   position:  absolute;
+}
+
+
+
+.Menu .link.Home {
+  background-color:  #FFF;
+  background-image: url('Images/Home.png');
+  background-repeat: no-repeat;
+ background-position: center;
+  width:50px;
+  height:50px;
+  color: white;
+   top: 5px;
+   left:1250px;
+   position:  absolute;
+   border-radius: 100%;
+   
+}
+/*----------------------------------Sub_Setting---------------------------------------- */
+
+.Menu .link.Setting {
+  background-color:  #FFF;
+  background-image: url('Images/Setting.png');
+  background-repeat: no-repeat;
+   background-position: center;
+  //background-size: 100%;
+  width:50px;
+  height: 50px;
+  color: white;
+   top: 110px;
+   left:1250px;
+   position:  absolute;
+   border-radius: 100%;
+   
+}
+
+#I_Fun
+{
+    display: none;
+    
+    
+}
+/*-------------------------------------Mobile_List-----------------------------------------------*/
+
+#I_Nokia-Lumia-625
+{   position: absolute;
+    top: 50px;
+    left: 300px;
+    background-image: url('Images/Mobile/Lumia-625.jpg');
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 235px;
+    background-size: 100%;
+    padding-right: 20px;
+    text-align:  center ;
+    font-size:  x-large; 
+    font-style:  oblique;
+  
+    
+}
+
+#I_Xperia-SPd
+{   position: absolute;
+    top: 150px;
+    left: 500px;
+    background-image: url('Images/Mobile/Xperia-SPd.jpg');
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 240px;
+    background-size: 100%;
+    padding-right: 20px;
+    text-align:  center ;
+    font-size:  x-large; 
+    font-style:  oblique;
+  
+    
+}
+
+#I_Galaxy-S4-I9
+{   position: absolute;
+    top: 250px;
+    left: 700px;
+    background-image: url('Images/Mobile/Galaxy-S4-I9.jpg');
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 320px;
+    background-size: 100%;
+    padding-right: 20px;
+    text-align:  center ;
+    font-size:  x-large; 
+    font-style:  oblique;
+  
+    
+}
+#I_iPhone-5s
+{   position: absolute;
+    top: 50px;
+    left: 900px;
+    background-image: url('Images/Mobile/iPhone-5s.jpg');
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 200px;
+    background-size: 100%;
+    padding-right: 20px;
+    text-align:  center ;
+    font-size:  x-large; 
+    font-style:  oblique;
+  
+    
+}
+#I_Optimus-G
+{   position: absolute;
+    top: 350px;
+    left: 1000px;
+    background-image: url('Images/Mobile/Optimus-G.jpg');
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 210px;
+    background-size: 100%;
+    padding-right: 20px;
+    text-align:  center ;
+    font-size:  x-large; 
+    font-style:  oblique;
+  
+    
+}
+/*----------------------------------------Comp------------------------------------*/
+#L_Name_1
+{
+     position: absolute;  
+     line-height:2em;
+	width: 100px;
+        height: 35px;
+        right: 50px;
+	top: 30px;
+    	font-weight: bold;
+	background: linear-gradient(#f1f1f1, #e2e2e2);
+	
+       // margin-top: 2px;
+        
+	color: #444;
+	
+	border: 1px solid #d4d4d4;
+	/* lets remove the right border */
+	border-left: 0;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	
+	
+
+	float: right;
+	
+	text-align: center;
+	
+}
+
+
+#i_Name_1 
+{
+        position: absolute;
+	line-height:2em;
+	width: 150px;
+        height: 35px;
+        right: 150px;
+	top: 30px;
+	//padding: 5px;
+	border: 1px solid #d4d4d4;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	
+	//line-height: 2em;
+	float: left;
+	
+        box-shadow: inset 0px 2px 2px #ececec;
+        text-align:  center;
+        cursor: pointer;
+	
+}
+#i_Name_1:focus 
+{
+	
+	outline: 0;
+	//border: 1px solid #bbb;
+        border: 2px solid #bbb;
+        
+}
+
+#L_Name_2
+{
+     position: absolute;  
+     line-height:2em;
+	width: 100px;
+        height: 35px;
+        right: 50px;
+	top: 80px;
+    	font-weight: bold;
+	background: linear-gradient(#f1f1f1, #e2e2e2);
+	
+       // margin-top: 2px;
+        
+	color: #444;
+	
+	border: 1px solid #d4d4d4;
+	/* lets remove the right border */
+	border-left: 0;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	
+	
+
+	float: right;
+	
+	text-align: center;
+	
+}
+
+
+#i_Name_2 
+{
+        position: absolute;
+	line-height:2em;
+	width: 150px;
+        height: 35px;
+        right: 150px;
+	top: 80px;
+	//padding: 5px;
+	border: 1px solid #d4d4d4;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	
+	//line-height: 2em;
+	float: left;
+	
+        box-shadow: inset 0px 2px 2px #ececec;
+        text-align:  center;
+        cursor: pointer;
+	
+}
+#i_Name_2:focus 
+{
+	
+	outline: 0;
+	//border: 1px solid #bbb;
+        border: 2px solid #bbb;
+        
+}
+
+#D_Com
+{
+     position: absolute;
+    /* Float containment */
+    //position: relative;
+    overflow: hidden;
+  //  border: solid 1px  #08986b;
+    top:40px;
+  display: inline-block;
+  top:200px;
+      left:100px;
+  
+}
+#i_Com
+{
+      
+    //background-image: url('Images/Form_Login/new.jpg');
+    width: 110px;
+    height: 50px;
+    background-size: 100%;
+     border-radius: 50px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+#i_Com:focus 
+{
+	
+	outline: 0;
+	border: 2px solid  darkturquoise;
+}
+
+
+.Menu .link.Setting {
+  background-color:  #FFF;
+  background-image: url('Images/user.png');
+  background-repeat: no-repeat;
+   background-position: center;
+  //background-size: 100%;
+  width:50px;
+  height: 50px;
+  color: white;
+   top: 110px;
+   left:1250px;
+   position:  absolute;
+   border-radius: 100%;
+   
+}

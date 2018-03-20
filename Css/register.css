@@ -1,0 +1,345 @@
+/*----------------------------------Tem_01------------------------------------*/
+/***********************************Class**************************************/
+
+.D_Default
+  {
+     position:absolute;
+     border:hidden;
+     overflow:hidden;
+  }
+.D_Contact
+  {
+     position: absolute;
+     left:0px;
+     height: 40px;
+     width: 40px;
+     border: hidden;
+  }
+.Img_Icon_Contact
+  {
+    border:hidden;
+    width:34px;
+    height: 34px;
+  }
+
+.D_Menu_Info_Sub
+  {
+       display:  inline;
+       height:15px;
+       color: #08986b;
+     /*  font-weight:bold;*/
+       font-size: 16px;
+       font-family: BNazanin,sans-serif,Arial, Helvetica; 
+  }
+/***********************************ID****************************************/
+ #sit_Pattern
+  {
+      background-image: url('../Images/Pattern-Back.jpg')   ;
+      background-repeat: no-repeat;
+      background-color: azure;
+      padding: 0px;
+      margin: 0px;
+  }
+  #Sit_Body
+  {
+      position: absolute;
+      width: 1364px;
+      height: 705px;
+      top: 0;
+      bottom: 0;  
+      left: 0;
+      right: 0;
+      padding: 0px;
+      margin: 0px;
+      direction: ltr;
+      //background-color:  #08986b;
+      
+  }
+
+/*******************************Middle***********************/
+#D_form
+{ 
+    position: absolute;
+    left: 350px;
+    top: 50px;
+    width:700px;
+    height:460px;
+    background-color: #fafafa;
+    border:   #fafafa 1px solid;
+}
+/*******************************Contact***********************/ 
+#D_Contact
+   {
+    left:1140px;
+     top: 2px;
+     height: 38px;
+     width:202px; 
+  
+   } 
+
+#D_FB
+   {
+        left: 0px;
+   } 
+#D_Rss
+  {     
+    left: 52px;
+  }
+  #D_G
+   {
+      left: 102px; 
+    
+      
+   }
+  #D_In
+  {
+      left: 152px;
+  }
+
+ /*---------------------------------MENU Footer---------------------------------------*/
+
+ #D_Footer
+     {
+       border: 2px   darkgrey  inset;
+       position: absolute;
+       height:40px;
+       width:1365px;      
+       left:0px;
+       padding: 0px;
+       bottom: 0px;
+        background-color:  #d7d7d7;
+       border-left: hidden;
+       border-right: hidden;
+       border-bottom: hidden;
+     }
+
+
+    #Footer_Link a:hover
+    {
+        text-decoration: none;
+       color: #000;
+    }
+    #Footer_Link a
+    {
+        text-decoration: none;
+        color: #585858;
+        
+    } 
+     #D_Footer_Link
+     {
+         border: 1px #000 solid;
+         position: absolute;
+         left:700px;
+     }
+     
+#FT_text
+{
+    position: absolute;
+    left:5px;
+    top:10px;
+    text-decoration-color:  #585858;
+    
+}
+
+body 
+    {
+	font-size: 67%;
+	font-family: Verdana;
+	background: #eee;
+	padding: 50px 0;
+    }
+
+form 
+{
+    background: #fafafa;
+    padding: 20px;
+   // width: 400px;
+    margin: 0 auto;
+    padding-top: 40px;
+    //border: 1px solid #ffe2e3;
+   // border: solid 1px aqua;
+   
+    top: 130px;
+    height:350px;
+    width:460px;
+}
+
+
+
+form label, form input
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+form label
+{
+    
+    	font-weight: bold;
+	background: linear-gradient(#f1f1f1, #e2e2e2);
+	padding:7px 10px;
+        margin-top: 2px;
+        
+	color: #444;
+	
+	border: 1px solid #d4d4d4;
+	/* lets remove the right border */
+	border-left: 0;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	
+	line-height:1.5em;
+	width: 40%;
+	
+
+	float: right;
+	
+	text-align: center;
+	
+}
+
+
+form input
+{
+       
+	width: 60%;
+	padding: 5px;
+	border: 1px solid #d4d4d4;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 4px;
+	
+	line-height: 1.5em;
+	float: left;
+	
+        box-shadow: inset 0px 2px 2px #ececec;
+        text-align:  center;
+        cursor: pointer;
+        
+	
+}
+form input:focus 
+{
+	
+	outline: 0;
+	border: 1px solid #bbb;
+        
+}
+
+#D_uname
+{
+    /* Float containment */
+    overflow: hidden;
+   // border: solid 1px aqua;
+    
+  
+}
+
+#D_pass
+{
+    /* Float containment */
+    position: relative;
+    overflow: hidden;
+  //  border: solid 1px  #08986b;
+    top:10px;
+  
+}
+#D_mobile
+{
+    /* Float containment */
+    position: relative;
+    overflow: hidden;
+  //  border: solid 1px  #08986b;
+    top:20px;
+  
+}
+#D_Fname
+{
+    /* Float containment */
+    position: relative;
+    overflow: hidden;
+  //  border: solid 1px  #08986b;
+    top:30px;
+  
+}
+
+#D_Lname
+{
+    /* Float containment */
+    position: relative;
+    overflow: hidden;
+  //  border: solid 1px  #08986b;
+    top:40px;
+  
+}
+
+#D_email
+{
+    /* Float containment */
+    position: relative;
+    overflow: hidden;
+  //  border: solid 1px  #08986b;
+    top:50px;
+  
+}
+
+#D_log
+{
+    /* Float containment */
+    position: relative;
+    overflow: hidden;
+  //  border: solid 1px  #08986b;
+    top:100px;
+    display: inline-block; 
+  
+}
+
+#i_log
+{
+      
+    background-image: url('Images/Form_Login/new.jpg');
+    width: 110px;
+    height: 50px;
+    background-size: 100%;
+     border-radius: 50px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    
+}
+#i_log:focus 
+{
+	
+	outline: 0;
+	border: 2px solid  darkturquoise;
+}
+#D_register
+{
+    /* Float containment */
+    position: relative;
+    overflow: hidden;
+  //  border: solid 1px  #08986b;
+    top:40px;
+  display: inline-block;
+  
+}
+#i_register
+{
+      
+    background-image: url('Images/Form_Login/new.jpg');
+    width: 110px;
+    height: 50px;
+    background-size: 100%;
+     border-radius: 50px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+#i_register:focus 
+{
+	
+	outline: 0;
+	border: 2px solid  darkturquoise;
+}
+#I_Fun
+{
+    display: none;
+    
+}
